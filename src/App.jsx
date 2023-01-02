@@ -10,6 +10,12 @@ import {
   PastAchievements,
   Web3Blogs,
 } from "./Components";
+import {
+  AiOutlineInstagram,
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/Ai";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
