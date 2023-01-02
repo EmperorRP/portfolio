@@ -4,7 +4,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
-} from "react-icons/Ai";
+} from "./react-icons/Ai";
 // import { socialMedia } from "../constants";
 // import { profilePic } from "../assets";
 import { layout } from "../style";
