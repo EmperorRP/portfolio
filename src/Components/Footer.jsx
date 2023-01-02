@@ -1,19 +1,21 @@
 import React from "react";
-import {
-  githubLogo,
-  twitterLogo,
-  linkedinLogo,
-  instagramLogo,
-} from "./assets/icons";
-// import { socialMedia } from "../constants";
-// import { profilePic } from "../assets";
+// import {
+//   githubLogo,
+//   twitterLogo,
+//   linkedinLogo,
+//   instagramLogo,
+// } from "./assets/icons";
+import githubLogo from "../assets/icons/githubLogo.svg";
+import twitterLogo from "../assets/icons/twitterLogo.svg";
+import linkedinLogo from "../assets/icons/linkedinLogo.svg";
+import instagramLogo from "../assets/icons/instagramLogo.svg";
 import { layout } from "../style";
 
 const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagramLogo,
-    link: "https://www.instagram.com/therahulpujari",
+    icon: githubLogo,
+    link: "https://www.github.com/emperorrp",
   },
   {
     id: "social-media-2",
@@ -25,10 +27,11 @@ const socialMedia = [
     icon: linkedinLogo,
     link: "https://www.linkedin.com/in/saileelarahulpujari/",
   },
+
   {
     id: "social-media-4",
-    icon: githubLogo,
-    link: "https://www.github.com/emperorrp",
+    icon: instagramLogo,
+    link: "https://www.instagram.com/therahulpujari",
   },
 ];
 
@@ -42,19 +45,19 @@ const Footer = () => (
         <p
           className={`font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] max-w-[470px] mt-5`}
         >
-          Smart contract developer who is dabbling in smart
-          contract security.
+          Looking for opportunities in Smart Contract Security. Connect with me
+          on socials:
         </p>
         <div className="flex flex-row mt-4">
           {socialMedia.map((social, index) => (
-            <a
-              href={social.link}
-              target="_blank"
-              key={social.id}
-              index={index}
-              className="text-white mr-5 text-[25px] hover:text-teal-200"
-            >
-              {React.createElement(social.icon)}
+            <a href={social.link}>
+              <img
+                target="_blank"
+                key={social.id}
+                index={index}
+                className="text-white mr-5 text-[25px] hover:text-teal-200 w-8"
+                src={social.icon}
+              ></img>
             </a>
           ))}
         </div>
