@@ -1,10 +1,10 @@
 import React from "react";
-import {
-  AiOutlineInstagram,
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillGithub,
-} from "react-icons/Ai";
+// import {
+//   AiOutlineInstagram,
+//   AiFillTwitterCircle,
+//   AiFillLinkedin,
+//   AiFillGithub,
+// } from "react-icons/Ai";
 // import { socialMedia } from "../constants";
 // import { profilePic } from "../assets";
 import { layout } from "../style";
@@ -12,22 +12,22 @@ import { layout } from "../style";
 const socialMedia = [
   {
     id: "social-media-1",
-    icon: AiOutlineInstagram,
+    // icon: AiOutlineInstagram,
     link: "https://www.instagram.com/therahulpujari",
   },
   {
     id: "social-media-3",
-    icon: AiFillTwitterCircle,
+    // icon: AiFillTwitterCircle,
     link: "https://www.twitter.com/therahulpujari",
   },
   {
     id: "social-media-4",
-    icon: AiFillLinkedin,
+    // icon: AiFillLinkedin,
     link: "https://www.linkedin.com/in/saileelarahulpujari/",
   },
   {
     id: "social-media-4",
-    icon: AiFillGithub,
+    // icon: AiFillGithub,
     link: "https://www.github.com/emperorrp",
   },
 ];
@@ -45,7 +45,7 @@ const Footer = () => (
           Web3 Enthusiast, Smart contract developer who is dabbling in smart
           contract security.
         </p>
-        <div className="flex flex-row mt-4">
+        {/* <div className="flex flex-row mt-4">
           {socialMedia.map((social, index) => (
             <a
               href={social.link}
@@ -57,7 +57,7 @@ const Footer = () => (
               {React.createElement(social.icon)}
             </a>
           ))}
-        </div>
+        </div> */}
         <p
           className={`font-poppins font-normal text-dimWhite text-[12px] leading-[30.8px] max-w-[470px] mt-5`}
         >
