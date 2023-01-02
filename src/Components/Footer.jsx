@@ -4,7 +4,7 @@ import {
   twitterLogo,
   linkedinLogo,
   instagramLogo,
-} from "../assets/icons";
+} from "./assets/icons";
 // import { socialMedia } from "../constants";
 // import { profilePic } from "../assets";
 import { layout } from "../style";
