@@ -7,17 +7,17 @@ import { motion } from "framer-motion";
 const blogsList = [
   {
     id: "project-1",
-    title: "Smart Contract Security Attacks",
-    link: "https://medium.com/@therahulpujari/list/smart-contract-security-attacks-list-cceb566c4bb9",
+    title: "Common Smart Contract Security Vulnerabilities",
+    link: "https://medium.com/@therahulpujari/smart-contract-security-vulnerabilities-e57f0691f294",
     content:
-      "I wrote this blog list to explore some common security attacks that can cause severe damage to smart contracts. Some of them include Reentrancy, delegatecall etc",
+      "In this blog post talks about common smart contract vulnerabilities like Reentrancy, Txorigin, front running, storage, delegatecall, overflow, underflow, seldestruct, and DoS.",
   },
   {
     id: "project-2",
     title: "Ethernaut Challenges",
     link: "https://therahulpujari.medium.com/list/ethernaut-challenges-8fc6d22534e9",
     content:
-      "In this list of blogs, I go through all the challenges of the Ethernaut CTF and give my approach and solution to the challenges. ",
+      "In this list of blogs, I go through some of the challenges of the Ethernaut CTF and give my approach and solution to those challenges.",
   },
   {
     id: "project-3",
@@ -36,7 +36,6 @@ const Blogs = (props) => {
       transition={{ duration: 1 }}
     >
       <section id="blogs">
-        
         <div className="flex flex-col sm:-mx-4 sm:flex-row">
           <div className="mt-4 sm:mx-4 sm:mt-0">
             <h1 className="text-xl font-semibold font-poppins text-gray-700 capitalize md:text-2xl group-hover:text-white text-gradient">

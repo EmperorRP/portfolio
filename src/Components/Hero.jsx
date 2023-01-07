@@ -8,7 +8,7 @@ const Hero = () => {
       id="home"
       className={`relative flex md:flex-row flex-col z-[5] ${styles.paddingY}`}
     >
-      <div className="flex flex-row  w-screen justify-evenly">
+      <div className="flex flex-row  w-screen justify-center">
         <motion.div
           whileInView={{ x: [-20, 0], opacity: [0, 1] }}
           transition={{ duration: 1 }}
@@ -29,19 +29,19 @@ const Hero = () => {
             </p>
           </div>
         </motion.div>
-
-        <motion.div
-          whileInView={{ x: [20, 0], opacity: [0, 1] }}
-          transition={{ duration: 1 }}
-          whileHover={{ scale: 1.1 }}
-        >
-          <img
-            src={rahul}
-            alt="landingimage"
-            className="relative z-index-[5] h-[100%]"
-          />
-        </motion.div>
       </div>
+      <motion.div
+        className="flex flex-row  w-screen justify-center"
+        whileInView={{ x: [20, 0], opacity: [0, 1] }}
+        transition={{ duration: 1 }}
+        whileHover={{ scale: 1.1 }}
+      >
+        <img
+          src={rahul}
+          alt="landingimage"
+          className="relative z-index-[5] h-[100%]"
+        />
+      </motion.div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 `}>
         <div className="absolute z-[-5] w-[40%] h-[35%] top-0 blue__gradient"></div>

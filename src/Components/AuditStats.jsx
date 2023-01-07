@@ -15,13 +15,13 @@ const stats = [
   },
   {
     id: "stats-3",
-    title: "Low Risk",
-    value: "0",
+    title: "Low Risk/QA",
+    value: "1",
   },
   {
     id: "stats-3",
     title: "Med/High Risk",
-    value: "0",
+    value: "1",
   },
 ];
 
