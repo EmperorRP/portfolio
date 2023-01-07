@@ -10,7 +10,7 @@ const blogsList = [
     title: "Common Smart Contract Security Vulnerabilities",
     link: "https://medium.com/@therahulpujari/smart-contract-security-vulnerabilities-e57f0691f294",
     content:
-      "In this blog post talks about common smart contract vulnerabilities like Reentrancy, Txorigin, front running, storage, delegatecall, overflow, underflow, seldestruct, and DoS.",
+      "In this blog post I talk about common smart contract vulnerabilities like Reentrancy, Txorigin, front running, storage, delegatecall, overflow, underflow, seldestruct, and DoS.",
   },
   {
     id: "project-2",
